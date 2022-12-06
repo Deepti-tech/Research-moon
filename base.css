@@ -2,7 +2,6 @@
 
 *{
   overflow-y: hidden;
-  overflow-x: hidden;
 }
 
 .header {
@@ -49,6 +48,7 @@
 }
 
 .container {
+  overflow-x: hidden;
   width: 100% !important;
   height: 100% !important;
   display: flex;
