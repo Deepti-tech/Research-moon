@@ -62,7 +62,7 @@
       <p id="instruct">What are they called?</p>
       <div class="buttons">
         <h2 onclick="rightAnswer()" class="start-the-game">CRATERS</h2>
-        <h2 onclick="wrongAnswer()" class="start-the-game">HIGHLANDS</h2>
+        <h2 onclick="wrongAnswer()" class="start-the-game">MARIA</h2>
       </div>
     </div>
   </div>
@@ -77,9 +77,9 @@
         document.getElementById("explore-section").style.display = "flex";
         document.getElementById("before-explore").style.display = "none";
     };
-    function rightAnswer(){
+   function rightAnswer(){
       if(answered==0){
-        document.getElementById("instruct").innerHTML="GOOD WORK!"
+        document.getElementById("instruct").innerHTML="GOOD WORK!<br>The word crater was adopted from the Greek word for 'vessel' Galileo discoverd that the Moon was not a perfect sphere, but had cup-like depressions. Thus, they were named as craters."
         answered=1;        
         document.getElementById("stages").className = "planning-progress";
         progress.style.opacity = 1;
@@ -90,7 +90,7 @@
 
     function wrongAnswer(){
       if(answered==0){
-        document.getElementById("instruct").innerHTML="TRY AGAIN!"
+        document.getElementById("instruct").innerHTML="No...<br>Centuries ago, the dark areas were called 'maria', presumably assuming that the observer would be seeing water oceans. However, telescopic observations showed that the maria are very flat<br>TRY AGAIN!"
         answered=0;
       }
     }
