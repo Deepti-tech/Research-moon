@@ -171,10 +171,17 @@ h2:hover{
   margin-left: 200px;
 }
 
-.planning-progress{
+.research1-progress{
     position:absolute;
     margin-top: 5px;
-    margin-left: 222px;
+    margin-left: 245px;
+    transition: 1s ease 0.3s;
+}
+
+.research2-progress{
+    position:absolute;
+    margin-top: 5px;
+    margin-left: 300px;
     transition: 1s ease 0.3s;
 }
 
@@ -195,7 +202,7 @@ h2:hover{
 	align-items: center;
 	justify-content: center;
 	height: 100%;
-	width: 200px;
+	width: 66.66%;
 	opacity: 1;
 	transition: 1s ease 0.3s;
 }
